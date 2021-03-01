@@ -11,6 +11,8 @@ public class HellowWord {
     @Autowired
     private RabbitTemplate rabbitTemplate;
 
+    //测试git
+
     public void sendMsg(){
         rabbitTemplate.setConfirmCallback(new RabbitTemplate.ConfirmCallback() {
             @Override
